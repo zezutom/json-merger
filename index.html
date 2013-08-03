@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Json Merge</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Tomas Zezula" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="json-merge.css" />
+	</head>
+
+	<body>		
+		<div id="page">
+			<div id="menu">
+				<button id="mergeBtn">Merge</button>
+			</div>			
+			<div id="original">
+				<textarea>
+					{"apple":0,"banana":{"weight":52,"price":100},"cherry":97}
+				</textarea>				
+			</div>
+			<div id="update">
+				<textarea>
+					{"banana":{"size":50},"durian":100}
+				</textarea>								
+			</div>
+			<div id="merge">
+				<textarea></textarea>	
+			</div>			
+		</div>
+	</body>
+		<script type="text/javascript" src="core.js"></script>
+		<script type="text/javascript" src="modules/menu.js"></script>
+		<script type="text/javascript" src="modules/userInputContainer.js"></script>
+		<script type="text/javascript" src="modules/mergeOutputContainer.js"></script>
+		<script type="text/javascript" src="modules/prettyPrinter.js"></script>
+		<script type="text/javascript" src="modules/jsonMerger.js"></script>
+		<script type="text/javascript" src="json-merge.js"></script>
+
+</html>

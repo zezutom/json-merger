@@ -1,0 +1,41 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #a7a09a;
+}
+
+textarea {
+	resize: both;
+	min-height: 200px;
+	max-height: 300px;
+	width: 365px;
+}
+
+#merge textarea {
+	width: 745px;
+	min-height:300px;	
+}
+
+#page {
+	width:750px;
+	margin:0 auto;
+}
+
+#original, #update, #merge {
+	text-align: center;
+}
+
+#original {
+	float:left;
+	width:370px;
+}
+
+#update {
+	float:right;
+	width:370px;
+}
+
+#merge {
+	width: 750px;
+}
